@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Interactive Personal Budget Manager — Release 1
 
 Owner: Justin Van Vuren
@@ -46,4 +45,3 @@ amount 0 rejected, unknown category rejected.
 - IDs are based on the number of transactions.
 - Undo only removes the most recent transaction.
 - Must be run from the project folder.
-EOF
