@@ -39,6 +39,29 @@ amount 0 rejected, unknown category rejected.
 - `storage.py`: load/save CSV
 - `cli.py`: menu
 
+## Project structure
+
+```
+budget-manager/
+├── README.md
+├── DESIGN.md
+├── AI_DISCLOSURE.md
+├── pyproject.toml
+├── uv.lock
+├── .python-version
+├── .gitignore
+├── data/
+│   └── sample_transactions.csv
+└── src/
+    └── budget_manager/
+        ├── __init__.py
+        ├── models.py
+        ├── validation.py
+        ├── services.py
+        ├── storage.py
+        └── cli.py
+```
+
 ## Known limitations
 - Only EUR; no currency conversion.
 - The date check only looks at the format (YYYY-MM-DD), not whether the day exists.
