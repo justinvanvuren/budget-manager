@@ -1,4 +1,4 @@
-# Interactive Personal Budget Manager — Release 1
+# Interactive Personal Budget Manager
 
 Owner: Justin Van Vuren
 
