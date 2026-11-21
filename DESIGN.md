@@ -1,4 +1,3 @@
-cat > DESIGN.md << 'EOF'
 # Design rationale
 
 I split the program into small modules with one job each. All checks on raw input live in
@@ -9,4 +8,3 @@ and amount in `__init__`, so an invalid transaction can never exist anywhere in 
 it can be tested directly. Unknown categories are rejected instead of being silently changed to
 "other", so mistakes stay visible. The file is saved after every add and undo, so the CSV on disk
 always matches what the program shows, even after a restart.
-EOF
